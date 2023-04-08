@@ -19,6 +19,7 @@ h2 {
 table {
        border-collapse: collapse; 
        width: 500px;
+       background-size: cover;
 }
 col.cnome {
     background-color: rgb(177, 149, 164);
@@ -28,6 +29,7 @@ col.cgrupo {
 }
 .cprofissão {
     background-color: brown;
+
 }
 caption {
           font-size: 1.3em;
