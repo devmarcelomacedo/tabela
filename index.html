@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio de Tabela</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Exercício de Tabela</h1>
+    <h2>Usando o <mark>COLGROUP</mark></h2>
+    <p>Vamos colocar dentro de <mark>table</mark>colgroup, e dentro dele colocaremos <mark> col </mark> de acordo com a quantidade de colunas existente. <br> Por exemplo: <br> abaixo temos: <br> Nome, Sexo, Idade e Profissão. <br> faremos assim : <br></p>
+    &lt;table&gt; <br>
+       &lt;colgroup&gt; 
+    <p>&lt; col class="<mark>cNone</mark>"&gt;</p> 
+    <p> <del>&lt; col class="cSexo"&gt;</del></p>
+    <p> &lt; col class="<mark>cIdade</mark>"&gt; fica assim : &lt; class="<mark>cgrupo</mark>"<mark>span</mark>="<mark>2</mark>"&gt;</p> 
+    <p>&lt;  col class="<mark>cProfissão</mark>"&gt;</p>
+       &lt;colgroup&gt;<br>
+    &lt;table&gt;
+    <p>Observação:</p>
+    <p>posso fazer o seguinmte :</p>
+    <p>
+        &lt;col class="grupo" span="2"&gt; <br>
+        significa dizer que: <br> Eu posso atribuir background-color a duas colunas
+    </p>
+    <p>mais observações:</p>
+    &lt;<mark>table</mark>&gt; <br>
+        &lt;colgroup&gt; 
+       <p>&lt; col class="amarelo"&gt;</p> 
+       <p> &lt; col class="vermelho"&gt;</p>
+       <p> &lt; col class="amarelo"&gt;</p> 
+       <p>&lt;  col class="vermelho"&gt;</p>
+        &lt;colgroup&gt;<br>
+    &lt;<mark>table</mark>&gt;
+    <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="cgrupo" span="2">
+            <col class="cprofissão">
+        </colgroup>
+
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+        <tr class="destaque">
+            <td>Marcelo V. Macedo</td>
+            <td>Masculino</td>
+            <td>53 anos</td>
+            <td>Analista de suporte TI </td>
+        </tr>
+        <tr>
+            <td> Adriana Macedo</td>
+            <td>Feminino</td>
+            <td>43 anos</td>
+            <td>Podologa</td>
+        </tr>
+        <tr>
+            <td>Patricia</td>
+            <td>Feminino</td>
+            <td>35 anos</td>
+            <td>Secretária</td>
+        </tr>
+        <tr>
+            <td>Yasmin loren</td>
+            <td>Feminino</td>
+            <td>20 anos</td>
+            <td>Caixa</td>
+        </tr>
+        <tr>
+            <td>Luan Marcel</td>
+            <td>Masculino</td>
+            <td>20 anos</td>
+            <td>Atendente</td>
+        </tr>
+        <tr>
+            <td>kauanMichel</td>
+            <td>Masculino</td>
+            <td>14 anos</td>
+            <td>Estudante</td>
+        </tr>
+    </table>
+</body>
+</html>

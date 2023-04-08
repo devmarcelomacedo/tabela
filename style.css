@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:rgb(103, 165, 246) ;
+}
+h1{
+    border: 2px solid brown;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    color: white;
+} 
+h2 {
+    border: 2px solid brown;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+table {
+       border-collapse: collapse; 
+       width: 500px;
+}
+col.cnome {
+    background-color: rgb(177, 149, 164);
+}
+col.cgrupo {
+    background-color: rgb(141, 160, 218);
+}
+.cprofissão {
+    background-color: brown;
+}
+caption {
+          font-size: 1.3em;
+          font-weight: bold;
+          padding: 8px;  
+}
+th, td {
+        border: 1px solid black;
+        padding: 8px;
+}
