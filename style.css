@@ -20,16 +20,19 @@ h2 {
 table {
        border-collapse: collapse; 
        width: 500px;
-       background-size: cover;
+       
 }
 col.cnome {
     background-color: rgb(177, 149, 164);
+  
 }
 col.cgrupo {
     background-color: rgb(141, 160, 218);
+    
 }
 .cprofissão {
     background-color: brown;
+    
 
 }
 caption {
@@ -40,4 +43,5 @@ caption {
 th, td {
         border: 1px solid black;
         padding: 8px;
+        background-size: cover;
 }
